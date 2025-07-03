@@ -1,0 +1,31 @@
+2025-06-28 16:23:52,375 - WARNING - TensorFlow is not available. LSTM Autoencoder will be disabled
+2025-06-28 16:23:52,378 - INFO - Output directory: D:\DEVELOPMENTS\analysis_results
+2025-06-28 16:23:52,379 - INFO - Analyzing file: D:\DEVELOPMENTS\data.csv
+2025-06-28 16:23:52,379 - INFO - File directory: D:\DEVELOPMENTS
+2025-06-28 16:23:52,379 - INFO - File size: 0.00 MB
+2025-06-28 16:23:52,380 - INFO - Detecting file encoding...
+2025-06-28 16:23:52,458 - INFO - Detected encoding: ascii with confidence 1.00
+2025-06-28 16:23:52,458 - INFO - File identified as CSV
+2025-06-28 16:23:52,510 - INFO - Starting data preprocessing
+2025-06-28 16:23:52,526 - INFO - Removed 7 rows (missing data/duplicates)
+2025-06-28 16:23:52,529 - INFO - Converted column 'Duration' to numeric
+2025-06-28 16:23:52,529 - INFO - Converted column 'Pulse' to numeric
+2025-06-28 16:23:52,530 - INFO - Converted column 'Maxpulse' to numeric
+2025-06-28 16:23:52,530 - INFO - Converted column 'Calories' to numeric
+2025-06-28 16:23:52,531 - INFO - Preprocessed data shape: (162, 4)
+2025-06-28 16:23:52,536 - INFO - Saved cleaned data: analysis_results\cleaned_data.csv
+2025-06-28 16:23:52,536 - INFO - Running anomaly detection
+2025-06-28 16:23:52,547 - INFO - Running Isolation Forest...
+2025-06-28 16:23:52,708 - INFO - Running One-Class SVM...
+2025-06-28 16:23:52,715 - INFO - Running DBSCAN...
+2025-06-28 16:23:52,722 - INFO - Skipping LSTM Autoencoder because TensorFlow is not available
+2025-06-28 16:23:52,722 - INFO - Performing time series analysis
+2025-06-28 16:23:52,724 - WARNING - No datetime columns found for time series analysis
+2025-06-28 16:23:52,725 - INFO - Performing cluster analysis
+2025-06-28 16:23:52,740 - INFO - Running KMeans clustering...
+2025-06-28 16:23:57,183 - INFO - Running DBSCAN clustering...
+2025-06-28 16:23:59,166 - INFO - Saved clustering visualization
+2025-06-28 16:23:59,170 - INFO - Generating final report
+2025-06-28 16:23:59,204 - INFO - Report generated: D:\DEVELOPMENTS\analysis_results\analysis_report.html
+2025-07-03 10:54:56,446 - WARNING - TensorFlow is not available. LSTM Autoencoder will be disabled
+2025-07-03 10:57:53,081 - WARNING - TensorFlow is not available. LSTM Autoencoder will be disabled
